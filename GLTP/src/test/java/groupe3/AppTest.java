@@ -35,4 +35,12 @@ public class AppTest
     {
         assertTrue( true );
     }
+   /**
+    * modification apportée pour observer le test unit
+    */ 
+    public void testMethodeperso()
+    {
+        
+        assertEquals(1,App.methodperso());
+    }
 }
