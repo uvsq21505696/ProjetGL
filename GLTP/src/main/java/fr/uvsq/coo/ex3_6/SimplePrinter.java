@@ -3,23 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package fr.uvsq.coo.ex3_5;
+package fr.uvsq.coo.ex3_6;
 
 /**
  *
  * @author pc
  */
-public class Centre extends Point{
-    
-    public Centre(float abs,float ord)
-    {
-        super(abs,ord);
-    }
-    
-    
+public class SimplePrinter implements Printer{
+
     @Override
-    public String toString()
-    {
-        return super.toString()+":centre";
+    public void print() {
+     /*à coder*/  
     }
+    
 }
